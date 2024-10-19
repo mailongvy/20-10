@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\LENOVO\Desktop\JSP_project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4041746020.index
+\BookShop\src\main\java
+C:\Users\LENOVO\Desktop\JSP_project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\963085562.index
+\20_10\src\main\java
+C:\Users\LENOVO\Desktop\JSP_project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3961408358.index
+\BookShop_demo\src\main\java

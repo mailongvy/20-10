@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+div .Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+form {
+    border: solid 1px #ccc;
+}
+
+div .btn {
+    margin: 15px;
+}
+

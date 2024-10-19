@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+table {
+    width: 100%; /* Bảng sẽ chiếm toàn bộ chiều rộng của container */
+    border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
+    margin: 20px 0; /* Tạo khoảng trống trên và dưới bảng */
+    font-size: 16px; /* Cỡ chữ chuẩn */
+    text-align: left; /* Căn chỉnh văn bản sang trái */
+}
+
+th, td {
+    padding: 12px 15px; /* Khoảng cách giữa nội dung và đường viền ô */
+    border: 1px solid #ddd; /* Đường viền ô */
+}
+
+th {
+    background-color: #f2f2f2; /* Màu nền của tiêu đề bảng */
+    font-weight: bold; /* Đậm tiêu đề */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Màu nền cho các dòng chẵn */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Hiệu ứng hover khi di chuột qua bảng */
+}

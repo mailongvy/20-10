@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;20_10/src/main/webapp/InfoPage.jsp&apos; to &apos;InfoPage.html&apos;" description="Rename resource &apos;InfoPage.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/InfoPage.jsp" name="InfoPage.html" stamp="1729297830770" updateReferences="true"/>
+</session>

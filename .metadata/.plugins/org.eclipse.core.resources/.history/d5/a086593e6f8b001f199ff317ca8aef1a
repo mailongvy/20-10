@@ -1,0 +1,55 @@
+package com.DAO;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import com.database.Util;
+import com.model.BookModel;
+
+public class BookDAO implements DAOinterface<BookModel> {
+	
+	public static BookDAO getInstance() {
+		return new BookDAO();
+	}
+
+	@Override
+	public int Insert(BookModel t, String Bookname, String Bookedition, double Bookprice) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int Update(BookModel t, String Bookname, String Bookedition, double Bookprice) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int Delete(BookModel t, String Bookname, String Bookedition, double Bookprice) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public ArrayList<BookModel> SelectAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public BookModel selectByID(BookModel t, String uname, String pass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<BookModel> SelectbyCondition(String condition) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+}

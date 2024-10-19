@@ -1,0 +1,13 @@
+package com.DAO;
+
+import java.util.ArrayList;
+
+public interface DAOinterface<T> {
+	public int Insert(T t, String Bookname, String Bookedition, double Bookprice);
+	public int Update(T t, String Bookname, String Bookedition, double Bookprice);
+	public int Delete(T t, String Bookname, String Bookedition, double Bookprice);
+	public ArrayList<T> SelectAll();
+	public T selectByID(T t, String Bookname, String Bookedition, double Bookprice);
+	public ArrayList<T> SelectbyCondition(String condition);
+	
+}
